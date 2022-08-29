@@ -10,7 +10,6 @@ contract Market {
     address ceth;
     uint id;
     uint id2;
-    
     struct usdcInfo{
         address usdc;
         uint APY;
