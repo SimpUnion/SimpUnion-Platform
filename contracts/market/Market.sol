@@ -6,8 +6,6 @@ contract Market {
     address Dai;
     address eth;
     address cusdc;
-    address cDai;
-    address ceth;
     uint id;
     uint id2;
     struct usdcInfo{
