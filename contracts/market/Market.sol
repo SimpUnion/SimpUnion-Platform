@@ -64,7 +64,6 @@ contract Market {
     }
     
     function setApy(address token,uint oneyear,uint twoyear,uint threeyear)public{
-        //require(msg.sender==address(this),"No permission to modify");
         require(token==usdc||token==Dai||token==eth,"Please enter the correct token address");
         if(token==usdc){
                 usdcInfo memory uinfo=usdcInfo({
