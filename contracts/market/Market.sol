@@ -108,7 +108,6 @@ contract Market {
                 });   
             ethMarketList.push(uinfo);
         }
-
     }
     
     function mortgageMarket(address token ,uint amounts,uint times)public{
