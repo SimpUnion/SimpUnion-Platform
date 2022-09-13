@@ -359,5 +359,4 @@ contract Market {
      function ethAPY(uint ids)public view returns(uint){
         return ethList[ids].APY3;
     }
-
 }
